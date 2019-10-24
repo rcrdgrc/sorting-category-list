@@ -71,3 +71,5 @@ Final notes on expected submissions:
 
 
 If you have any questions, let me know. Looking forward to your answer!
+
+(Please do not comment on this public BitBucket snippet, thank you!)
