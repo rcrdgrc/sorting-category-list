@@ -6,9 +6,9 @@ Suppose you are tasked with syncing data from two different sources, a product d
 Your function should take a JSON object representing the categories from the product database and provide as output a list of dictionaries sorted in the proper insertion order. There may be more than one optimal ordering of the categories, but you only have to provide an optimal ordering. 
 
 You can assume:
- - The input will always be solvable (there will be no missing parents)
- - The input will always be valid JSON in the format of the example below, with no additional data
- - There may be more than one root category (a category with no parents)
+ - The input will always be solvable (there will be no missing parents)  
+ - The input will always be valid JSON in the format of the example below, with no additional data  
+ - There may be more than one root category (a category with no parents)  
 
 This is a formatted JSON sample input, with one sample child (with both a parent and a child), one child with no children, and sample parent (with no parent)
 ```json
@@ -63,13 +63,11 @@ module.exports = function sortCategoriesForInsert (inputJson) {
 }
 ```
 
-Final notes on expected submissions: 
- - Please use standard libraries where possible and limit the business logic to a one file submission.
- - The order of key-value pairs within the JSON output does NOT matter.
- - The whitespace of output JSON does NOT matter. 
- - Your solution should take into account that there may be tens of thousands of categories. 
+Final notes on expected submissions:
+ - Please use standard libraries where possible and limit the business logic to a one file submission.  
+ - The order of key-value pairs within the JSON output does NOT matter.  
+ - The whitespace of output JSON does NOT matter.  
+ - Your solution should take into account that there may be tens of thousands of categories.   
 
 
 If you have any questions, let me know. Looking forward to your answer!
-
-(Please do not comment on this public BitBucket snippet, thank you!)
