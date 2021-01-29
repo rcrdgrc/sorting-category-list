@@ -59,8 +59,13 @@ When submitting your solution, please provide it as a file containing the functi
 module.exports = function sortCategoriesForInsert (inputJson) {
   // Your code happens...
   ///   ... which calculates properJsonOutput
-  return properJsonOutput
+
+  // return properJsonOutput
+
+  console.log(inputJson)
 }
+
+
 ```
 
 Final notes on expected submissions:  
